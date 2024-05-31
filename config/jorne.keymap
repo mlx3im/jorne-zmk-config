@@ -15,14 +15,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        toggle_displays {
-            bindings = <&ext_power EP_TOG>;
-            key-positions = <40 1>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
